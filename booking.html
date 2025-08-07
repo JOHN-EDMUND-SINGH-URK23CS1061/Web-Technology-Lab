@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Your Ticket</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ticket Booking</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="events.html">Events</a>
+      <a href="booking.html">Book Now</a>
+    </nav>
+  </header>
+  <section class="booking-form">
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+      <label for="event">Select Event:</label>
+      <select id="event" required>
+        <option>Coldplay Live</option>
+        <option>IPL Finals</option>
+      </select>
+      <label for="tickets">Number of Tickets:</label>
+      <input type="number" id="tickets" min="1" max="10" required>
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2025 EventBooking Inc.</p>
+  </footer>
+</body>
+</html>
